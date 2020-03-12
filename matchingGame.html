@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div {
+		position: absolute;
+		width: 500px;
+		height: 500px;
+	}
+	#leftside {
+		border-left: 1px solid #000;
+	}
+	#rightside {
+		border-right: 1px solid #000;
+		left: 500px;
+	}
+	img {
+		position: absolute;
+	}
+</style>
+<script src="matchgame.js"> </script> 
+</head>
+<body onload="generateFaces()" id="thebody">
+<h1> Matching Game </h1>
+<p> Click on the extra smiling face on the left </p>
+<div id="leftside"> </div>
+<div id="rightside"> </div>
+</body>
+</html>
